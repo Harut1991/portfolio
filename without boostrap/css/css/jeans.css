@@ -22,11 +22,6 @@
     color: white;
     margin-right: 10px; }
 
-.m-style {
-  box-shadow: 4px 8px 4px black;
-  z-index: 1;
-  margin-top: -68px; }
-
 .jeans-left {
   width: 23%;
   height: 500px;
@@ -202,7 +197,10 @@ h4 {
     display: none; }
 
   .hide {
-    display: block; } }
+    display: block; }
+
+  .jeans-left {
+    width: 38%; } }
 @media screen and (max-width: 600px) {
   .btn {
     width: 35% !important; }
@@ -247,7 +245,10 @@ h4 {
     font-size: 17px !important; }
 
   .foot {
-    width: 46% !important; } }
+    width: 46% !important; }
+
+  .jeans-left {
+    width: 48%; } }
 @media screen and (max-width: 315px) {
   .pad-pad {
     padding-left: 47px; }

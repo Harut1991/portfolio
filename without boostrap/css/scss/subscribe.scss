@@ -1,32 +1,32 @@
 .subscribe {
- @include mymix(100%, 330px);
+  @include mymix(100%, 330px);
   background: black;
 
-    h5 {
-    @include fontCol(17px,white);
-      padding-left: 39px;
-    }
+  h5 {
+    @include fontCol(17px, white);
+    padding-left: 39px;
+  }
 
-    .inp-vip {
-      margin-left: 30px;
-      @include mymix(90%, 30px);;
-      padding-left: 10px;
-    }
-    .btn{
-      background: red;
-      border: none;
-      padding: 10px 25px;
-      margin-left: 30px;
-      color: white;
-    }
-    .btn:hover {
-      background: $prim-hover;
-    }
+  .inp-vip {
+    margin-left: 30px;
+    @include mymix(90%, 30px);;
+    padding-left: 10px;
+  }
+  .btn {
+    background: red;
+    border: none;
+    padding: 10px 25px;
+    margin-left: 30px;
+    color: white;
+  }
+  .btn:hover {
+    background: $prim-hover;
+  }
 }
 
 h4 {
-    @include fontCol(34px,white);
-    padding: 35px;
+  @include fontCol(34px, white);
+  padding: 35px;
 }
 
 .table {
@@ -43,18 +43,18 @@ h4 {
     }
     p {
       padding-left: 30px;
-      font-size: 13px ;
+      font-size: 13px;
     }
 
-    .btn-send{
-     @include mymix(90%, 30px);
+    .btn-send {
+      @include mymix(90%, 30px);
       color: white;
       background: black;
       border: none;
     }
 
     .inp-cont {
-     @include mymix(85%, 30px);
+      @include mymix(85%, 30px);
       padding-left: 10px;
     }
     .btn-send:hover {
@@ -85,7 +85,7 @@ h4 {
 }
 
 .footer {
- @include mymix(100%, 100px);
+  @include mymix(100%, 100px);
   background: black;
 
   .foot {
