@@ -1,0 +1,103 @@
+.subscribe {
+ @include mymix(100%, 330px);
+  background: black;
+
+    h5 {
+    @include fontCol(17px,white);
+      padding-left: 39px;
+    }
+
+    .inp-vip {
+      margin-left: 30px;
+      @include mymix(90%, 30px);;
+      padding-left: 10px;
+    }
+    .btn{
+      background: red;
+      border: none;
+      padding: 10px 25px;
+      margin-left: 30px;
+      color: white;
+    }
+    .btn:hover {
+      background: $prim-hover;
+    }
+}
+
+h4 {
+    @include fontCol(34px,white);
+    padding: 35px;
+}
+
+.table {
+  @include mymix(100%, 360px);
+  background: #ccc;
+  @extend %mybox;
+  .cont {
+    width: 33%;
+    padding-top: 55px;
+
+    span {
+      padding-left: 85px;
+      font-size: 20px;
+    }
+    p {
+      padding-left: 30px;
+      font-size: 13px ;
+    }
+
+    .btn-send{
+     @include mymix(90%, 30px);
+      color: white;
+      background: black;
+      border: none;
+    }
+
+    .inp-cont {
+     @include mymix(85%, 30px);
+      padding-left: 10px;
+    }
+    .btn-send:hover {
+      background: $prim-hover
+    }
+
+    .about {
+      width: 55%;
+      margin: 0 auto;
+      span {
+        padding-left: 38px;
+      }
+
+    }
+
+    a {
+      text-align: center;
+      color: black;
+      cursor: pointer;
+    }
+    .mark {
+      font-size: 11px;
+    }
+    .sp {
+      padding-left: 32px;
+    }
+  }
+}
+
+.footer {
+ @include mymix(100%, 100px);
+  background: black;
+
+  .foot {
+    width: 23%;
+    padding-top: 51px;
+    margin: 0 auto;
+    .power {
+      color: white;
+    }
+  }
+  a {
+    color: white;
+  }
+
+}

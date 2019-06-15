@@ -1,0 +1,35 @@
+
+$prim-hover: #9FA2A2;
+
+%wheight{
+	width: 100%;
+	height: auto;
+}
+
+%mybox{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+}
+
+@mixin mymix($width, $height)
+{
+	width: $width;
+	height: $height;
+}
+@mixin fontCol($fontSize,$color){
+	font-size: $fontSize;
+	color: $color;
+	
+}
+
+
+@import 'jeans-left-panel';
+@import 'jeans-right-plan';
+@import 'subscribe';
+@import 'responsive';
+
+
+

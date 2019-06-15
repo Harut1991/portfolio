@@ -1,0 +1,85 @@
+@media screen and (max-width:803px){
+	.jeans-left{
+		display: none;
+	}
+	.jeans-right{
+		width: 100%
+	}
+	h1{display: none;}
+	.hide{
+		display: block;
+	}
+
+	
+}
+@media screen and (max-width:600px){
+	.btn{
+		width: 35%!important;
+	}
+	
+	.about{
+		width: 65%!important;
+	}
+}
+@media screen and (max-width:549px){
+	.foot {
+    width: 32%!important;}
+    .panel1 {
+    width: 92%!important;}
+    .inp-vip{
+    	width: 75%!important
+    }
+    .table .cont span {
+    padding-left: 66px;}
+
+}
+@media screen and (max-width:437px){
+	.cont {
+    width: 100%!important;
+}
+    .table{
+    	height: 1000px!important;
+    }
+
+    .about{
+    	width: 35%!important;
+    }
+    .table .cont span {
+
+    font-size: 29px;}
+    table .cont p {
+    font-size: 19px!important ;}
+    .pad-pad{
+    	padding-left:115px;
+    }
+    .table .cont span {
+    padding-left: 128px}
+    table .cont p {
+    font-size: 17px!important;}
+    .foot {
+    width: 46% !important}
+
+
+
+
+}
+@media screen and (max-width:315px){
+	.pad-pad{
+		padding-left:47px;
+	}
+	.about{
+		width: 54%!important;
+	}
+	.table .cont span {
+    padding-left: 90px;}
+
+}
+@media screen and (max-width:315px){
+
+.subscribe .btn {
+    padding: 13px 14px;}
+    .foot {
+    width: 54% !important}
+    .btn {
+    width: 67% !important}
+}

@@ -1,0 +1,270 @@
+.collections, .collections .col-1 {
+  width: 100%;
+  height: auto; }
+
+.hidden-div, .jeans-right .header, .collections .col-1, .table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.hide {
+  display: none; }
+
+.hidden-div {
+  background: black; }
+  .hidden-div h2 {
+    color: white;
+    margin-left: 10px;
+    font-family: Arial; }
+  .hidden-div .nav-bar {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px; }
+
+.m-style {
+  box-shadow: 4px 8px 4px black;
+  z-index: 1;
+  margin-top: -68px; }
+
+.jeans-left {
+  width: 23%;
+  height: 500px;
+  padding: 0 !important;
+  float: left;
+  padding-left: 50px;
+  overflow-y: auto;
+  position: fixed;
+  background: white; }
+  .jeans-left ul li {
+    font-size: 20px;
+    color: #515252;
+    list-style-type: none;
+    font-weight: bold;
+    line-height: 2.0; }
+    .jeans-left ul li .ul2 {
+      display: none;
+      padding: 20px;
+      background: white; }
+  .jeans-left .contacts {
+    width: 100%;
+    margin-top: 100px; }
+    .jeans-left .contacts a {
+      font-size: 18px;
+      color: black;
+      font-weight: normal !important;
+      text-decoration: none; }
+    .jeans-left .contacts a:hover {
+      background: #9FA2A2; }
+
+li:hover {
+  background: #9FA2A2; }
+
+h1 {
+  padding-left: 38px; }
+
+.jeans-right {
+  width: 70%;
+  float: right;
+  margin-left: 10px; }
+  .jeans-right .header {
+    width: 100%;
+    height: 50px; }
+    .jeans-right .header .marg {
+      margin-right: 12px; }
+  .jeans-right p {
+    font-size: 23px; }
+
+.first-panel {
+  width: 100%;
+  height: 550px;
+  background: url("../../image/jeans.jpg");
+  background-size: cover;
+  background-position: 100%; }
+  .first-panel .panel1 {
+    width: 56%;
+    height: 270px;
+    padding-top: 66px;
+    padding-left: 30px; }
+    .first-panel .panel1 h2 {
+      font-size: 42px;
+      color: white; }
+    .first-panel .panel1 h3 {
+      font-size: 32px;
+      color: white; }
+    .first-panel .panel1 .btn {
+      width: 30%;
+      height: 50px;
+      background: black;
+      color: white;
+      border: none; }
+    .first-panel .panel1 .btn:hover {
+      background: #9FA2A2; }
+
+.collections {
+  margin-top: 30px; }
+  .collections .col-1 .item {
+    height: 320px;
+    margin-top: 20px; }
+    .collections .col-1 .item .myimg {
+      width: 176px;
+      height: 250px; }
+    .collections .col-1 .item p {
+      font-size: 16px; }
+
+.subscribe {
+  width: 100%;
+  height: 330px;
+  background: black; }
+  .subscribe h5 {
+    font-size: 17px;
+    color: white;
+    padding-left: 39px; }
+  .subscribe .inp-vip {
+    margin-left: 30px;
+    width: 90%;
+    height: 30px;
+    padding-left: 10px; }
+  .subscribe .btn {
+    background: red;
+    border: none;
+    padding: 10px 25px;
+    margin-left: 30px;
+    color: white; }
+  .subscribe .btn:hover {
+    background: #9FA2A2; }
+
+h4 {
+  font-size: 34px;
+  color: white;
+  padding: 35px; }
+
+.table {
+  width: 100%;
+  height: 360px;
+  background: #ccc; }
+  .table .cont {
+    width: 33%;
+    padding-top: 55px; }
+    .table .cont span {
+      padding-left: 85px;
+      font-size: 20px; }
+    .table .cont p {
+      padding-left: 30px;
+      font-size: 13px; }
+    .table .cont .btn-send {
+      width: 90%;
+      height: 30px;
+      color: white;
+      background: black;
+      border: none; }
+    .table .cont .inp-cont {
+      width: 85%;
+      height: 30px;
+      padding-left: 10px; }
+    .table .cont .btn-send:hover {
+      background: #9FA2A2; }
+    .table .cont .about {
+      width: 55%;
+      margin: 0 auto; }
+      .table .cont .about span {
+        padding-left: 38px; }
+    .table .cont a {
+      text-align: center;
+      color: black;
+      cursor: pointer; }
+    .table .cont .mark {
+      font-size: 11px; }
+    .table .cont .sp {
+      padding-left: 32px; }
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: black; }
+  .footer .foot {
+    width: 23%;
+    padding-top: 51px;
+    margin: 0 auto; }
+    .footer .foot .power {
+      color: white; }
+  .footer a {
+    color: white; }
+
+@media screen and (max-width: 803px) {
+  .jeans-left {
+    display: none; }
+
+  .jeans-right {
+    width: 100%; }
+
+  h1 {
+    display: none; }
+
+  .hide {
+    display: block; } }
+@media screen and (max-width: 600px) {
+  .btn {
+    width: 35% !important; }
+
+  .about {
+    width: 65% !important; } }
+@media screen and (max-width: 549px) {
+  .foot {
+    width: 32% !important; }
+
+  .panel1 {
+    width: 92% !important; }
+
+  .inp-vip {
+    width: 75% !important; }
+
+  .table .cont span {
+    padding-left: 66px; } }
+@media screen and (max-width: 437px) {
+  .cont {
+    width: 100% !important; }
+
+  .table {
+    height: 1000px !important; }
+
+  .about {
+    width: 35% !important; }
+
+  .table .cont span {
+    font-size: 29px; }
+
+  table .cont p {
+    font-size: 19px !important; }
+
+  .pad-pad {
+    padding-left: 115px; }
+
+  .table .cont span {
+    padding-left: 128px; }
+
+  table .cont p {
+    font-size: 17px !important; }
+
+  .foot {
+    width: 46% !important; } }
+@media screen and (max-width: 315px) {
+  .pad-pad {
+    padding-left: 47px; }
+
+  .about {
+    width: 54% !important; }
+
+  .table .cont span {
+    padding-left: 90px; } }
+@media screen and (max-width: 315px) {
+  .subscribe .btn {
+    padding: 13px 14px; }
+
+  .foot {
+    width: 54% !important; }
+
+  .btn {
+    width: 67% !important; } }
+
+/*# sourceMappingURL=jeans.css.map */

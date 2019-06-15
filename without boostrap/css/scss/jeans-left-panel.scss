@@ -1,0 +1,57 @@
+.hide{display: none;}
+.hidden-div{
+	@extend %mybox;
+	background:black;
+	
+	h2{
+		color: white;
+		margin-left: 10px;
+		font-family: Arial;
+	}
+	.nav-bar{
+		font-size: 30px;
+		color: white;
+		margin-right: 10px;
+		
+
+	}
+}
+.m-style{
+	box-shadow: 4px 8px 4px black;
+	z-index: 1;
+	margin-top: -68px;
+}
+
+.jeans-left{
+	@include mymix(23%, 500px);
+	padding: 0 !important;
+	float: left;
+	padding-left: 50px;
+	overflow-y: auto;
+	position: fixed;
+	background:white;
+
+
+ul li {
+	@include fontCol(20px,#515252);
+	list-style-type: none;
+	font-weight: bold;
+	line-height: 2.0;
+	.ul2{display: none;
+		padding:20px;
+		background: white;}
+	}
+
+	.contacts{
+		width: 100%;
+		margin-top: 100px;
+
+		a{	@include fontCol(18px,black);
+			font-weight: normal !important;
+			text-decoration: none;}
+			
+		a:hover{background:#9FA2A2;}
+	}
+}
+li:hover{background: #9FA2A2;}
+h1{padding-left: 38px;}
